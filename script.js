@@ -54,7 +54,7 @@ $(".status").css("margin-left","0"),
 $("#form")[0].reset(),
 setTimeout(function(){$(".status").html("online ")},900),setTimeout(function(){$(".status").html("typing... ")},1000),lastmsg=msg.toUpperCase().trim(),$(".conversation-container").scrollTop(scroll),send());
 });
-$("#name").html("ganesh kavhar");
+$("#name").html("RKMRC");
 //if msg is sent  bot reply 
 function send(){
 var sr=lastmsg.split(" ");
